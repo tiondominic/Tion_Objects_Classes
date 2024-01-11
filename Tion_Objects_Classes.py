@@ -6,7 +6,7 @@ class Circle:
         self.radius = radius
 
     def area(self):
-        area = math.pi * (self.radius ** 2)
+        area = math.pi * self.radius ** 2
         print("The area of the Circle is: ", area)
 
     def circumference(self):
